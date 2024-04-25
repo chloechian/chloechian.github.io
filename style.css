@@ -1,0 +1,113 @@
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* 讓圖片置中 */
+}
+
+.info{
+  text-align: center;
+  margin: 10px auto 0;
+  color: rgb(31, 31, 31);
+  margin-bottom: 200px; /* 下方空格 */
+}
+
+h1{
+  font-size: 30px;
+  color: rgb(31, 31, 31);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 25px
+}
+
+.custom-line-spacing1 {
+  line-height: 1.5; 
+}
+.custom-line-spacing2 {
+  line-height: 4; /* 設定行距為原始尺寸的倍數 */
+}
+
+.head-photo {
+  width: 300px;
+  margin: 0px auto;
+  margin-top: 200px; /* 上方空格 */
+  margin-bottom: 60px; /* 下方空格 */
+}
+.head-photo img{
+  width: 100%;
+  height: auto;
+  border-radius: 9999px;
+}
+
+.button-container{
+display: flex;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+
+.btn2{
+  margin-left: 50px;
+}
+
+.btn{
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  color: #1c1c1c;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(.09,1.21,.7,1.63);
+}
+.btn:hover{
+  background-color: #ffdc90;
+  font-size: 23px;
+}
+
+
+.B{
+  margin-top: 300px;
+  margin-left: 25px;
+  margin-bottom: 100px;
+}
+
+h2{
+  font-size: 45px;
+  color: rgb(0, 0, 203);
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px
+ 
+}
+
+.video-container video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.end{
+  background-color: #eab4ce;
+}
+.col{
+  margin-left: 0px;
+}
+
+h3{
+  font-size: 25px;
+}
