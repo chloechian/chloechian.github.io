@@ -111,3 +111,12 @@ h2{
 h3{
   font-size: 25px;
 }
+
+.card{
+  transition: all .3s;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 5px color#adadad;
+  transform: translate(-5px, -5px) rotate(-1deg);
+}
