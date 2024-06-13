@@ -6,6 +6,11 @@
   /* 讓圖片置中 */
 }
 
+.info-container{
+  margin-top: 300px;
+
+}
+
 .info {
   text-align: center;
   margin: 10px auto 0;
@@ -94,7 +99,7 @@ h2 {
   margin-bottom: 3px;
 }
 
-.responsive-image{
+.responsive-image {
   margin-bottom: 200px;
 }
 
@@ -123,10 +128,6 @@ h2 {
 
 h3 {
   font-size: 25px;
-}
-
-.allcard {
-  margin-bottom: 100px;
 }
 
 .card {
@@ -167,12 +168,12 @@ h3 {
 
 
 
-.move-container{
+.move-container {
   width: 100%;
   overflow: hidden;
 }
 
-.box{
+.box {
   margin-bottom: 200px;
   display: flex;
   flex-wrap: nowrap;
@@ -186,18 +187,18 @@ h3 {
 }
 
 @keyframes move {
-  from{
+  from {
     transform: translatex(0);
   }
-  to{
+
+  to {
     transform: translatex(-100%);
   }
 }
 
-.img{
+.img {
   flex-shrink: 0;
   width: 500px;
   height: 100%;
   background-color: aquamarine;
 }
-
