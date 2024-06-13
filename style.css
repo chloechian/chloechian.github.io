@@ -83,7 +83,7 @@ h1 {
 .B {
   margin-top: 150px;
   margin-left: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 h2 {
@@ -92,6 +92,10 @@ h2 {
   text-align: left;
   font-weight: 500;
   margin-bottom: 3px;
+}
+
+.responsive-image{
+  margin-bottom: 200px;
 }
 
 .video-container {
@@ -136,7 +140,7 @@ h3 {
 
 .image-button {
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-bottom: 10px;
   display: inline-block;
   /* 使連結像按鈕一樣顯示 */
@@ -160,6 +164,8 @@ h3 {
   height: auto;
   /* 保持圖片原始高寬比 */
 }
+
+
 
 .move-container{
   width: 100%;
@@ -190,7 +196,7 @@ h3 {
 
 .img{
   flex-shrink: 0;
-  width: 20%;
+  width: 500px;
   height: 100%;
   background-color: aquamarine;
 }
