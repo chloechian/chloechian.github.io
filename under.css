@@ -1,0 +1,70 @@
+.background-container {
+margin-top: -390px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* 讓圖片置中 */
+    z-index: 1; /* 確保圖片在影片下方 */
+  }
+
+.video-container {
+    width: 80%;
+    /* 根據需要調整寬度 */
+    max-width: 800px;
+    /* 設置影片的最大寬度 */
+    transform: translatey(1700px); 
+    margin: 0 auto;
+    z-index: 2; /* 確保影片在圖片上方 */
+}
+
+video {
+    width: 100%;
+    /* 使影片寬度為容器的寬度 */
+    height: auto;
+    /* 保持影片的縱橫比 */
+    margin: 0 auto;
+}
+
+h1 {
+    transform: translatex(350px); 
+    font-size: 15px;
+        color: rgb(49, 49, 49);
+        font-weight: 500;
+        margin-bottom: 50px;
+}
+   
+
+.button-container {
+    margin-top: -1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    transform: translatex(-410px); 
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(.09, 1.21, .7, 1.63);
+  }
+  
+  .btn:hover { 
+    font-size: 35px;
+    color: aquamarine;
+  }
