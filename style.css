@@ -8,7 +8,6 @@
 
 .info-container{
   margin-top: 300px;
-
 }
 
 .info {
@@ -166,15 +165,14 @@ h3 {
   /* 保持圖片原始高寬比 */
 }
 
+.c{
+  margin-top: 100px;
+  margin-left: 40px;
+}
 
 .move-container {
   width: 100%;
   overflow: hidden;
-}
-
-.c{
-  margin-top: 100px;
-  margin-left: 40px;
 }
 
 .box {
